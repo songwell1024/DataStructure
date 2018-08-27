@@ -27,6 +27,17 @@ public class Array<E> {
     }
 
     /**
+     * 构造函数
+     * @param arr
+     */
+    public Array(E[] arr){
+        data = (E[])new Object[arr.length];
+        for(int i = 0 ; i < arr.length ; i ++)
+            data[i] = arr[i];
+        size = arr.length;
+    }
+
+    /**
      * 获取数组的元素个数
      * @return
      */
@@ -50,6 +61,21 @@ public class Array<E> {
         return size == 0;
     }
 
+
+    /**
+     * 交换数组中的任意两个元素
+     * @param i
+     * @param j
+     */
+    public void swap(int i, int j){
+        if (i < 0 || j < 0 || i > size || j > size ){
+            throw new IllegalArgumentException("i or j do not in this array");
+        }
+        E ret = data[i];
+        data[i] = data[j];
+        data[j] = ret;
+
+    }
     /**
      * 向数组中指定位置插入元素
      * @param index 插入位置
