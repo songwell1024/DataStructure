@@ -28,8 +28,8 @@
       <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AVLTree/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="390" column="8" lean-forward="false" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
+            <state relative-caret-position="404">
+              <caret line="402" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
               <folding>
                 <element signature="e#767#768#0" expanded="true" />
                 <element signature="e#794#795#0" expanded="true" />
@@ -37,10 +37,10 @@
                 <element signature="e#901#902#0" expanded="true" />
                 <element signature="e#1739#1740#0" expanded="true" />
                 <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#4642#4643#0" expanded="true" />
-                <element signature="e#4686#4687#0" expanded="true" />
-                <element signature="e#7593#7594#0" expanded="true" />
-                <element signature="e#7642#7643#0" expanded="true" />
+                <element signature="e#4334#4335#0" expanded="true" />
+                <element signature="e#4378#4379#0" expanded="true" />
+                <element signature="e#7285#7286#0" expanded="true" />
+                <element signature="e#7334#7335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/UnionFind/UF.java" />
         <option value="$PROJECT_DIR$/src/UnionFind/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/AVLTree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/RedBlackTree/RedBlackTree.java" />
       </list>
     </option>
   </component>
@@ -126,8 +127,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="281" />
-    <option name="y" value="4" />
+    <option name="x" value="206" />
     <option name="width" value="1050" />
     <option name="height" value="852" />
   </component>
@@ -166,7 +166,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,12 +179,25 @@
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AVLTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AVLTree" type="462c0819:PsiDirectoryNode" />
+              <item name="AVLTree" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,12 +449,13 @@
       <workItem from="1535593909057" duration="3786000" />
       <workItem from="1535598438447" duration="118000" />
       <workItem from="1535598580215" duration="406000" />
-      <workItem from="1535610277818" duration="9110000" />
+      <workItem from="1535610277818" duration="9883000" />
+      <workItem from="1535676866992" duration="9692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150144000" />
+    <option name="totallyTimeSpent" value="160609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +482,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14267352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14524421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -506,13 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/binarySearchTree/BSTSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queue/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
@@ -895,10 +902,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RedBlackTree/RedBlackTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AVLTree/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="390" column="8" lean-forward="false" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
+        <state relative-caret-position="404">
+          <caret line="402" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
           <folding>
             <element signature="e#767#768#0" expanded="true" />
             <element signature="e#794#795#0" expanded="true" />
@@ -906,10 +921,10 @@
             <element signature="e#901#902#0" expanded="true" />
             <element signature="e#1739#1740#0" expanded="true" />
             <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#4642#4643#0" expanded="true" />
-            <element signature="e#4686#4687#0" expanded="true" />
-            <element signature="e#7593#7594#0" expanded="true" />
-            <element signature="e#7642#7643#0" expanded="true" />
+            <element signature="e#4334#4335#0" expanded="true" />
+            <element signature="e#4378#4379#0" expanded="true" />
+            <element signature="e#7285#7286#0" expanded="true" />
+            <element signature="e#7334#7335#0" expanded="true" />
           </folding>
         </state>
       </provider>

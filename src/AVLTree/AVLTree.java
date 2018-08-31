@@ -134,16 +134,6 @@ public class AVLTree<K extends Comparable<K>, V> {
         return getHeight(node.leftNode) - getHeight(node.rightNode);
     }
 
-
-    // 对节点y进行向右旋转操作，返回旋转后新的根节点x
-    //        y                              x
-    //       / \                           /   \
-    //      x   T4     向右旋转 (y)        z     y
-    //     / \       - - - - - - - ->    / \   / \
-    //    z   T3                       T1  T2 T3 T4
-    //   / \
-    // T1   T2
-
     /**
      * 对以node为根节点的树进行右旋转
      // 对节点y进行向右旋转操作，返回旋转后新的根节点x
@@ -384,12 +374,40 @@ public class AVLTree<K extends Comparable<K>, V> {
             }
             //左右子树均不为空的时候
             else {
+                // 找到比待删除节点大的最小节点, 即待删除节点右子树的最小节点
+                // 用这个节点顶替待删除节点的位置
+                Node successor = minimum(node.rightNode);
+                successor.rightNode = remove(node.rightNode, successor.key);
+                successor.leftNode = node.leftNode;
 
+                node.leftNode = node.rightNode = null;
+                 retNode = successor;
             }
 
+            if (retNode == null){
+                return null;
+            }
+            retNode.height = Math.max(getHeight(retNode.rightNode), getHeight(retNode.leftNode));
+
+            //LL
+            if (balanceFactor(retNode) >  1 && (balanceFactor(retNode.leftNode) > 0)){
+                retNode = rightRoate(retNode);
+            }
+            //RR
+            if (balanceFactor(retNode) < -1 && (balanceFactor(retNode.rightNode ) > 0)){
+                retNode = leftRoate(retNode);
+            }
+            //LR
+            if (balanceFactor(retNode) > 1 && (balanceFactor(retNode.leftNode) < 0)){
+                retNode.leftNode = leftRoate(retNode.leftNode);
+                retNode = rightRoate(retNode);
+            }
+            //RL
+            if (balanceFactor(node) < -1 && (balanceFactor(node.rightNode) > 0)){
+                retNode.rightNode = rightRoate(retNode.rightNode);
+                retNode = leftRoate(retNode);
+            }
         }
-        
+        return retNode;
     }
-
-
 }
