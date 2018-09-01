@@ -193,6 +193,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
 
     /**
      * 层序遍历
+     * 使用队列先进先出
      */
     public void levelOrder(){
         Queue<Node> queue = new LinkedList<>();
