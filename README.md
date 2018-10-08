@@ -5,4 +5,11 @@
 ### 队列
 ### 栈
 ### 链表
-### 二分搜索树
+### [二分搜索树](https://songwell1024.github.io/2018/06/06/BinarySearchTree/)
+### [Map](https://songwell1024.github.io/2018/06/08/Map/)
+### [最大堆](https://songwell1024.github.io/2018/06/12/MaxHeapAndPriorityQueue/)
+### [线段树](https://songwell1024.github.io/2018/06/12/SegmentTree/)
+### [并查集](https://songwell1024.github.io/2018/06/16/UnionFind/)
+### [AVL树](https://songwell1024.github.io/2018/06/21/AVLTree/)
+### [红黑树](https://songwell1024.github.io/2018/06/27/RedBlackTree/)
+### [哈希表](https://songwell1024.github.io/2018/07/01/HashTable/)
